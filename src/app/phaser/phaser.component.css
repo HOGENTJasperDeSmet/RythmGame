@@ -1,0 +1,39 @@
+.phaserContainer{
+    width: 800px;
+    height: 657px;
+    overflow: hidden;
+    bottom: 0;
+}
+.combo{
+    margin-top: 50px;
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 5px #000;
+}
+.comboBig{
+    animation-name: scaleUpDown;
+    animation-duration: 500ms;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FAED27, 0 0 20px #FAED27, 0 0 30px #FAED27, 0 0 40px #FAED27, 0 0 55px #FAED27, 0 0 75px #FAED27;
+
+}
+@keyframes scaleUpDown {
+    0%   {
+        font-size: 100px;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FAED27, 0 0 20px #FAED27, 0 0 30px #FAED27, 0 0 40px #FAED27, 0 0 55px #FAED27, 0 0 75px #FAED27;
+
+    }
+    50%  {
+        font-size: 120px;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FAED27, 0 0 30px #FAED27, 0 0 40px #FAED27, 0 0 55px #FAED27, 0 0 75px #FAED27, 0 0 100px #FAED27;
+
+    }
+
+    100%  {
+        font-size: 100px;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #FAED27, 0 0 20px #FAED27, 0 0 30px #FAED27, 0 0 40px #FAED27, 0 0 55px #FAED27, 0 0 75px #FAED27;
+    }
+}
